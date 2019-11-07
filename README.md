@@ -6,8 +6,8 @@ Url: tbc
 # How to use
 Place the files in app/code of a Magento 2.2 or above site. Tested on 2.2 but will very likely work on 2.3+ as well.
 
-# Tour of vendor folders
-Below is a list of vendor folders and module names in this repo, and why they exist.
+# Tour of vendor & module folders
+Below is a list of vendor folders and module names in this repo, along with why they exist.
 
 Vendor Name | Module Name  | Notes
 --- | --- | ---
