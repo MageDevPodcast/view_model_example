@@ -14,7 +14,7 @@ Vendor Name | Module Name  | Notes
 MageDevPodcast | HomePageViewModel | Bear bones example of a view model on the homepage
 ExampleOld | ModuleOne |Module showing a block class extending another, to produce text on the homepage
 ExampleOld | ModuleTwo |Module showing a block class extending another, extending another, to produce text on the homepage in addition to ExampleOld_ModuleOne
-ExampleOld | ModuleThree |Module showing a block class extending another, extending another, extending another, to produce text on the homepage, in addition to ModuleOne & ExampleOld_ModuleTwo
+ExampleOld | ModuleThree |Module showing a block class extending another, extending another, extending another, to produce text on the homepage, in addition to ExampleOld_ModuleOne & ExampleOld_ModuleTwo
 ExampleNew | ModuleOne |New View Model, cleaner way to produce text on the homepage
 ExampleNew | ModuleTwo |New View Model, cleaner way to produce text on the homepage, in addition to ExampleNew_ModuleOne
 ExampleNew | ModuleThree |New View Model, cleaner way to produce text on the homepage, in addition to ExampleNew_ModuleOne & ExampleNew_ModuleTwo
