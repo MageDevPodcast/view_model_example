@@ -1,0 +1,11 @@
+<?php
+/** @var \ExampleNew\ModuleOne\ViewModel\NewHomeOne $newHomeOne */
+$newHomeOne = $block->getNewHomeOne();
+
+/** @var \ExampleNew\ModuleTwo\ViewModel\NewHomeTwo $newHomeTwo */
+$newHomeTwo = $block->getNewHomeTwo();
+?>
+
+<div>
+    <p><?=$newHomeOne->getText()?> | <?=$newHomeTwo->getText()?></p>
+</div>

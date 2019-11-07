@@ -1,0 +1,23 @@
+{
+    "name": "example-new/magento2-module-module-three",
+    "description": "New way of creating view models to avoid tangles",
+    "version": "1.0",
+    "require": {
+        "magento/module-cms": "102.0.*"
+        "example-new/magento2-module-module-one": "1.*"
+        "example-new/magento2-module-module-two": "1.*"
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ExampleNew\\ModuleThree\\": ""
+        }
+    }
+}

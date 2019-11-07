@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <referenceBlock name="old_homepage_block_one" remove="true"/>
+            <block class="ExampleOld\ModuleTwo\Block\HomeTwo" name="old_homepage_block_two" template="ExampleOld_ModuleTwo::oldhometwo.phtml" />
+        </referenceContainer>
+    </body>
+</page>

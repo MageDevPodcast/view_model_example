@@ -1,0 +1,21 @@
+{
+    "name": "mage-dev-podcast/magento2-module-home-page-view-model",
+    "version": "1.0",
+    "description": "Bear bones example of using a view model",
+    "require": {
+        "magento/module-cms": "102.0.*"
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageDevPodcast\\HomePageViewModel\\": ""
+        }
+    }
+}

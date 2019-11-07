@@ -1,0 +1,22 @@
+{
+    "name": "example-old/magento2-module-module-two",
+    "version": "1.0",
+    "description": "Old way of creating block classes and the tangle they can be",
+    "require": {
+        "magento/module-cms": "102.0.*",
+        "example-old/magento2-module-module-one": "1.*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ExampleOld\\ModuleTwo\\": ""
+        }
+    }
+}
